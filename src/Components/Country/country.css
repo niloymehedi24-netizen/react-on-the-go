@@ -6,5 +6,14 @@
 }
 
 .country-visited{
-    background-color: darkcyan;
+    background-color:cadetblue;
+}
+
+.visited-flags-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    width: 100px;
+    margin-right: 8px;
+    gap: 6px
 }
